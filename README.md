@@ -1,4 +1,4 @@
-# Documentazione tecnica di iCommerce 
+# iCommerce Doc
 
 Questo repository contiene il sorgente della documentazione tecnica pubblicata su http://www.readthedocs.org.
 
