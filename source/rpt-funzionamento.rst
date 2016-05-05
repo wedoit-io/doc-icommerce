@@ -1,5 +1,5 @@
-Funzionamento generatore di report
-==================================
+Funzionamento dei report
+========================
 L'applicazione iPad consente, a partire dalla versione 4.1.0, la
 generazione, visualizzazione e condivisione di report. I template di
 tali report vengono scaricati durante fase la sincronizzazione (sezione

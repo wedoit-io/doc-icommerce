@@ -58,11 +58,7 @@ La documentazione è organizzata nelle seguenti sezioni:
   :caption: Reports
 
   rpt-funzionamento
-  rpt-ordini-salvati
-  rpt-ordini-inviati
-  rpt-ordini-veloci
-  rpt-copia-commissione
-  rpt-incassi
+  rpt-report-standard
 
 .. _integration_main:
 

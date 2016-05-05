@@ -1,57 +1,43 @@
-Specifiche tecniche tracciati di export
-=======================================
+Specifiche dei tracciati
+========================
 
 Clicca sul nome del file per vedere il dettaglio
 
 Files Articoli
 --------------
 
-+------------------------------+
-| Descrizione                  |
-+==============================+
-| Articoli                     |
-+------------------------------+
-| Articoli in lingua           |
-+------------------------------+
-| Unità di misura              |
-+------------------------------+
-| Listini                      |
-+------------------------------+
-| Sconti                       |
-+------------------------------+
-| Storico articoli             |
-+------------------------------+
-| Ultimi articoli acquistati   |
-+------------------------------+
-| Ultimi articoli venduti      |
-+------------------------------+
-| Giacenze articoli            |
-+------------------------------+
+* `Articoli <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_art.cs>`_
+* `Articoli in lingua <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_art_lang.cs>`__
+* `Unità di misura <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_art_um.cs>`__
+* `Listini <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_listini_full.cs>`__
+* `Sconti <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_sconti.cs>`__
+* `Storico articoli  <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_stoart.cs>`__
+* `Ultimi articoli acquistati  <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_art_ultacq.cs>`__
+* `Ultimi articoli venduti  <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_art_ultven.cs>`__
+* `Giacenze articoli <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_giacenze.cs>`__
+
 
 Files Clienti
 -------------
 
-| Descrizione \| Nome file \| Ordini \| Consultazione
-| - \| \| \|
-| Clienti e Fornitori \| `io\_clifor\_gen.dat <../io_clifor_gen>`__ \| X
-  \| X
-| Agenti cliente \| `io\_clifor\_age.dat <../io_clifor_age>`__ \| X \| X
-| Blocchi \| `io\_clifor\_blo.dat <../io_clifor_blo>`__ \| X \| X
-| Calendario girovisita \|
-  `io\_clifor\_girovisita.dat <../io_clifor_girovisita>`__ \| X \|
-| Destinazioni \| `io\_clifor\_dest.dat <../io_clifor_dest>`__ \| X \|
-| Categorie \| `io\_clifor\_cate.dat <../io_clifor_cate>`__ \| \| X
-| Contatti \| `io\_clifor\_detcon.dat <../io_clifor_detcon>`__ \| \| X
-| Note \| `io\_clifor\_note.dat <../io_clifor_note>`__ \| \| X
-| Testate documenti \|
-  `io\_clifor\_testdoc.dat <../io_clifor_testdoc>`__ \| \| X
-| Righe documenti \| `io\_clifor\_righdoc.dat <../io_clifor_righdoc>`__
-  \| \| X
-| Scadenze \| `io\_clifor\_scadoc.dat <../io_clifor_scadoc>`__ \| \| X
-| Fatturato \| `io\_clifor\_fatt.dat <../io_clifor_fatt>`__ \| \| X
+* `Clienti e Fornitori <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_clifor_gen.cs>`_
+* `Agenti cliente <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_clifor_age.cs>`_
+* `Blocchi <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_clifor_blo.cs>`_
+* `Calendario girovisita <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_clifor_girovisita.cs>`_
+* `Destinazioni <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_clifor_dest.cs>`_
+* `Categorie <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_clifor_cate.cs>`_
+* `Contatti <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_clifor_detcon.cs>`_
+* `Note <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_clifor_note.cs>`_
+* `Testate documenti <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_clifor_testdoc.cs>`_
+* `Righe documenti <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_clifor_righdoc.cs>`_
+* `Scadenze <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_clifor_scadoc.cs>`_
+* `Fatturato <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_clifor_fatt.cs>`_
 
 Tracciati Leads
 ---------------
+
+* `Permessi operatori CRM <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_clifor_fatt.cs>`_
+
 
 +--------------------------------+
 | Descrizione                    |
