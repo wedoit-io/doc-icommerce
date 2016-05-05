@@ -16,7 +16,7 @@ Installazione sphiinx in locale
 E' possibile installare sphinx in locale e generare la documentazione nel proprio pcomputer.
 Per farlo basta installare sphinx con la seguente sintassi:
 
-    pip install sphinx sphinx-autobuild
+    pip install sphinx sphinx-autobuild sphinx-autobuild
 
 Compilare la documentazione
 ===
@@ -29,6 +29,31 @@ Andare nella cartella ic.wedoit.io ed eseguire il make
 
     make html
     
+
+Attivare refresh automatico del sito
+=====================================
+Per fare in modo che il sito si autoaggiorni senza dove rieseguire make html quando cambiano i sorgenti, operare come segue:
+
+Installare sphinx-autobuild
+
+	pip install sphinx-autobuild
+
+Aprire il file Makefile e in cima aggiungere:
+
+	SPHINXAUTOBUILD = sphinx-autobuild
+
+Nella parte sotto html aggiungere:
+
+	.PHONY: livehtml
+	livehtml:
+		$(SPHINXAUTOBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
+		@echo
+		@echo "Autobuild finished. The HTML pages are in $(BUILDDIR)/html."
+
+A questo punto basta eseguire:
+
+	make livehtml
+
 
 Riferimenti
 ===
