@@ -1,5 +1,5 @@
-Esportazione delle immagini
-===========================
+Esportare il catalogo
+=====================
 L' esportazione delle immagini per la creazione del catalogo, può essere
 effettuata in 2 diverse modalità:
 
@@ -76,8 +76,8 @@ Visualizzazione risultante:
   -  File Listino 4
   -  File Listino 5
 
-Export basato su filesystem
----------------------------
+Esportazione basata su filesystem
+---------------------------------
 
 L' export da filesystem, prevede che i file vengano copiati ed
 eventualmente raggruppati in cartelle e sottocartelle, all'interno della
@@ -91,7 +91,7 @@ differenti. I nomi delle cartelle si visualizzeranno anche nel
 dispositivo. I nomi dei file devono seguire le regole di nomenclatura
 descritte di seguito:
 
-Regole di nomenclatura di file e cartelle
+Nomenclatura di file e cartelle
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Per collegare i files agli articoli, e poter aprire il form dell' ordine
@@ -130,18 +130,16 @@ Esempi:
 Tipi di file supportati
 -----------------------
 
-+-------------+
-| Tipo        |
-+=============+
-| Immagini    |
-+-------------+
-| Video       |
-+-------------+
-| Documenti   |
-+-------------+
+I files supportati dal modulo catalogo sono:
 
-Nota: Alcuni codec (es.xvid, divx), non sono nativamente supportati su
-iOs.
+* Immagini
+* Video
+
+
+.. note::
+
+    Alcuni codec (es.xvid, divx), non sono nativamente supportati su iOs
+
 
 Dimensione delle immagini
 -------------------------
@@ -176,5 +174,6 @@ Anteprime cartelle
 ------------------
 
 Le anteprime delle cartelle che contengono le immagini, vengono
-visualizzate secondo criteri casuali. Viene cioè mostrata una immagine a
-caso fra quelle contenute all' interno della cartella.
+visualizzate secondo criteri casuali.
+Viene cioè mostrata una immagine a caso fra quelle contenute
+all' interno della cartella.

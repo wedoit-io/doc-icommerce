@@ -1,11 +1,18 @@
-Import ordini da tracciato
-==========================
+Importare i dati
+================
 
-:: warning:: L'import dei dati con questa modalità è deprecato. Utilizzare l'integrazione attraverso web services
+.. warning::
+
+    L'import dei dati con questa modalità è deprecato.
+    Utilizzare l'integrazione attraverso API Rest
+
 
 I files di import (verso gli ipad), vengono creati dall'appmanager e
 depositati nella cartella **C:\\Dropbox\\[nomeazienda]\\appmanager**.
 Devono seguire le seguenti specifiche:
+
+Importare gli ordini
+~~~~~~~~~~~~~~~~~~~~
 
 -  Il separatore dei campi e' il pipe
 -  I files NON hanno l'intestazione di colonna
@@ -18,7 +25,7 @@ Devono seguire le seguenti specifiche:
 -  I testi non superano MAI i 4000 caratteri
 
 Lista dei campi
----------------
+~~~~~~~~~~~~~~~
 
 +--------------------------+
 | Campo                    |

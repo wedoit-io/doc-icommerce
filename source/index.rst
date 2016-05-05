@@ -63,14 +63,14 @@ La documentazione è organizzata nelle seguenti sezioni:
 .. _integration_main:
 
 .. toctree::
-  :maxdepth: 2
+  :maxdepth: 3
   :caption: Integrazione
 
-  caratteristiche-generali-files
-  export-dati
-  export-catalogo
-  import-dati
-  import-dati-ws
+  int-intro-integrazione
+  int-export-dati
+  int-export-catalogo
+  int-import-dati-ws
+  int-import-dati
 
 .. _faq_main:
 
@@ -80,6 +80,18 @@ La documentazione è organizzata nelle seguenti sezioni:
 
   test-flight
   ord-nuovi-cli
+
+  .. _faq_main:
+
+.. _relnotes_main:
+
+.. toctree::
+  :maxdepth: 2
+  :caption: Versioni supportate
+
+  release-6-8
+  release-6-7
+  release-6-6
 
 Indici e Tabelle
 ================

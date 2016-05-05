@@ -1,7 +1,7 @@
-Import dati con Web Services
-============================
-L'import dei dati con l'utilizzo dei web service, sostituisce quella
-basata su file delimitato. La API di integrazione sono disponibili per:
+Importare i dati via API
+========================
+L'import dei dati con l'utilizzo delle API, sostituisce quella basata su file delimitato.
+La API di integrazione sono disponibili per:
 
 -  Ordini
 -  Modifiche anagrafica cliente
@@ -113,4 +113,4 @@ Per semplificare l'utilizzo delle API di recupero dei dati, è stata
 creata un libreria denominata AMHelper.
 
 La codice della libreria è open source e liberamente scaricabile da
-questo indirizzo `AMHelper <https://github.com/wedoit.io/AMHelper>`__
+questo indirizzo `AMHelper <https://github.com/wedoit-io/AMHelper>`__
