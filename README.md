@@ -11,9 +11,9 @@ Readthedocs è un servizio di hosting utilizza un generatore di documentazione s
 Ogni modifica effettuata sui files (che hanno estensione .rst) fa scattare un webhook verso readthedocs.
 Quest'ultimo scarica l'ultima versione pubblicata sul master e la ricompila.
 
-Installazione sphiinx in locale
+Installazione sphinx in locale
 ====
-E' possibile installare sphinx in locale e generare la documentazione nel proprio pcomputer.
+E' possibile installare sphinx in locale e generare la documentazione nel proprio computer.
 Per farlo basta installare sphinx con la seguente sintassi:
 
     pip install sphinx sphinx-autobuild sphinx-autobuild
