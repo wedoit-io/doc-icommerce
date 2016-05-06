@@ -82,8 +82,6 @@ La documentazione è organizzata nelle seguenti sezioni:
   faq-ord-nuovi-cli
   faq-tempi-import
 
-  .. _faq_main:
-
 .. _relnotes_main:
 
 .. toctree::
