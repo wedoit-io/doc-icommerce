@@ -78,8 +78,9 @@ La documentazione è organizzata nelle seguenti sezioni:
   :maxdepth: 2
   :caption: Domande frequenti
 
-  test-flight
-  ord-nuovi-cli
+  faq-test-flight
+  faq-ord-nuovi-cli
+  faq-tempi-import
 
   .. _faq_main:
 

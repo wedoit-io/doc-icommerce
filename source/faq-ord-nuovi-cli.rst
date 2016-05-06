@@ -1,13 +1,24 @@
 Ordini su nuovi clienti
 =======================
-La raccolta ordini può essere effettuata anche su nuovi clienti (non
-presenti nelle anagrafiche dell'iPad).
 
-Per attivare questa funzione, è sufficiente inserire, nel gestionale,
-uno o più clienti con partita iva ``99999999999`` (undici volte 9).
+Domanda
+-------
+A volte capitita di dover raccogliere un ordine su un nuovo cliente che ancora non è presente in anagrafica.
+Come posso fare ?
 
-Questi clienti vengono trattati come **clienti template**, e
-visualizzati in modo particolare.
+Risposta
+--------
+La raccolta ordini può essere effettuata anche su nuovi clienti (non presenti nelle anagrafiche dell'iPad).
+
+Per attivare questa funzione, è sufficiente inserire, nel gestionale, uno o più clienti con partita iva ``99999999999`` (undici volte 9).
+
+.. note::
+
+    Impostando il codice ``99999999999`` nella partita iva, il programma di estrazione imposta il campo
+    `FLG_NEW_CLIFOR <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_clifor_gen.cs#L152>`_ del
+    tracciato clienti a -1. E' questo flag che marca il cliente come cliente template
+
+Questi clienti, detti **clienti template**, nell'iPad vengono visualizzati e trattati in modo speciale.
 
 In particolar modo, nell'iPad:
 

@@ -1,5 +1,15 @@
 Testare le App
 ==============
+
+Domanda
+-------
+Vorrei poter verificare il corretto funzionamento delle nuove funzionalità prima della loro pubblicazione nello store.
+Questo perchè potrei dover richiedere alcune modifiche prima del loro rilascio definitivo che, oltretutto, impiega
+nella migliore delle ipotesi, dai 4 ai 5 giorni.
+Come posso farlo?
+
+Risposta
+--------
 WEDO Srl utilizza Testflight per distribuire a utenti beta tester, le
 versioni preliminari delle applicazioni, prima di pubblicarle
 sull'AppStore.
@@ -10,7 +20,7 @@ possono controllare il corretto funzionamemto di app non ancora
 rilasciate sull'App Store.
 
 1. Installazione Testflight
----------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Per diventare tester di una app, è necessario, prima di tutto,
 installare l'app Testflight di Apple sul proprio dispositivo, quindi:
@@ -21,7 +31,7 @@ installare l'app Testflight di Apple sul proprio dispositivo, quindi:
 -  Cliccare su **Ottieni** e successivamente su **Installa**
 
 2. Installazione App di test
-----------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 -  Chiudere Testflight ed aprire la propria mail contenente l'invito al
    test.
