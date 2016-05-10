@@ -86,6 +86,8 @@ sopracitata cartella **multimedia**.
 Il catalogo risultante nel dispositivo rispecchierà fedelmente la
 struttura dei file e cartelle desiderata.
 
+.. warning:: Quando si utilizza l'esportazione dei dati basata su filesystem, il file io\_catalogo non deve essere esistere.
+
 Un stesso file può essere presente più volte però ovviamente in cartelle
 differenti. I nomi delle cartelle si visualizzeranno anche nel
 dispositivo. I nomi dei file devono seguire le regole di nomenclatura
