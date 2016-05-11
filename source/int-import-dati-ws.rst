@@ -1,6 +1,8 @@
 Importare i dati via API
 ========================
-L'import dei dati con l'utilizzo delle API, sostituisce quella basata su file delimitato.
+
+.. warning: L'import dei dati con l'utilizzo delle API, sostituisce quella basata su file delimitato.
+
 La API di integrazione sono disponibili per:
 
 -  Ordini
