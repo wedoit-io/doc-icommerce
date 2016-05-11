@@ -1,8 +1,6 @@
 Importare i dati via API
 ========================
 
-.. note:: L'import dei dati con l'utilizzo delle API, sostituisce quella basata su file delimitato.
-
 La API di integrazione sono disponibili per:
 
 -  Ordini
@@ -10,6 +8,8 @@ La API di integrazione sono disponibili per:
 -  Note cliente
 -  Nuovi leads
 -  Note leads
+
+.. note:: L'import dei dati con l'utilizzo delle API, sostituisce quella basata su file delimitato.
 
 Chiamare le API
 ---------------
