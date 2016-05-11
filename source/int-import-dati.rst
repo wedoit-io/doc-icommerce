@@ -1,5 +1,5 @@
-Importare i dati
-================
+Importare i dati via Files
+==========================
 
 .. warning::
 
