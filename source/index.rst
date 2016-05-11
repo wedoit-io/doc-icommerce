@@ -81,6 +81,7 @@ La documentazione è organizzata nelle seguenti sezioni:
   faq-test-flight
   faq-ord-nuovi-cli
   faq-tempi-import
+  faq-clienti-scomparsi-mappa
 
 .. _relnotes_main:
 
