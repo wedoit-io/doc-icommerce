@@ -46,18 +46,18 @@ interscambiare i files.
 
 Kill e Restart programma dropbox
 --------------------------------
-La procedura di estrazione dei dati dal gestionale del cliente, dipende dal connettore utilizzato.
+La procedura di estrazione dei dati dal gestionale, dipende dal connettore utilizzato.
 Nella maggior parte dei casi, sarà effettuata da un batch di Windows configurato nelle operazioni pianificate.
 
 In corrispondenza del comando che effettua l'esportazione, si suggerisce di effettuare un kill del processo Dropbox.exe
 e un successivo restart.
 
-Esempio per il gestionale Business di NTS Informatica:
+Esempio di batch per l'export con il gestionale Business:
 
 .. code-block:: bash
 
     taskkill -F -IM "Dropbox.exe"
-    "D:\Program Files (x86)\Bus\busnet.exe" admin . AZIENDA Business Bnieibus /B D:\bus\asc\Export.bub AZIENDA
+    "C:\\Bus\\busnet.exe" admin . ACME Business Bnieibus /B D:\bus\asc\Export.bub ACME
 
     set app="%programfiles(x86)%\Dropbox\Client\Dropbox.exe"
-    start "Restart Dropbox" %app% -B;
+    start "Restart Dropbox" %app% -B

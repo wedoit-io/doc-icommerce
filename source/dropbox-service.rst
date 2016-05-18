@@ -1,7 +1,7 @@
 Dropbox come servizio
 =====================
 
-. warning:: L'installazione di Dropbox come servizio non è più consigliata. Si veda documento installazione dropbox
+.. warning:: L'installazione di Dropbox come servizio non è più consigliata. Si veda documento installazione dropbox
 
 Per attivare un nuovo progetto, per prima cosa è necessario installare
 il programma di sincronizzazione dei file `Dropbox`_ sul server su cui è
