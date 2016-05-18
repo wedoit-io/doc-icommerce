@@ -28,6 +28,7 @@ La documentazione è organizzata nelle seguenti sezioni:
   :caption: Installazione
 
   installa-app
+  dropbox-service
   dropbox
   connettore
   gestionale
