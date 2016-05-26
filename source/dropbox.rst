@@ -57,7 +57,7 @@ Esempio di batch per l'export con il gestionale Business:
 .. code-block:: bash
 
     taskkill -F -IM "Dropbox.exe"
-    "C:\\Bus\\busnet.exe" admin . ACME Business Bnieibus /B D:\bus\asc\Export.bub ACME
+    "C:\\Bus\\busnet.exe" admin . ACME Business Bnieibus /B C:\\SchedulazioneIB\\Export.bub
 
     set app="%programfiles(x86)%\Dropbox\Client\Dropbox.exe"
     start "Restart Dropbox" %app% -B
