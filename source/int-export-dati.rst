@@ -82,17 +82,19 @@ Esempio tracciato città (file io\_citta.dat):
 Specifiche dei tracciati
 ------------------------
 
-Clicca sul nome del file per vedere il dettaglio
+Clicca sul nome del file per vedere il dettaglio. 
+
+.. note:: I tracciati con un asterisco sono quelli minimi (o essenziali) per la raccolta ordini.
 
 Files articoli
 ~~~~~~~~~~~~~~
 
-* `Articoli <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_art.cs>`_
+* `Articoli(*) <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_art.cs>`_
 * `Articoli in lingua <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_art_lang.cs>`__
-* `Unità di misura <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_art_um.cs>`__
-* `Listini <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_listini_full.cs>`__
-* `Sconti <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_sconti.cs>`__
-* `Storico articoli  <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_stoart.cs>`__
+* `Unità di misura(*) <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_art_um.cs>`__
+* `Listini(*) <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_listini_full.cs>`__
+* `Sconti(*) <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_sconti.cs>`__
+* `Storico articoli(*)  <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_stoart.cs>`__
 * `Ultimi articoli acquistati  <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_art_ultacq.cs>`__
 * `Ultimi articoli venduti  <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_art_ultven.cs>`__
 * `Giacenze articoli <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_giacenze.cs>`__
@@ -101,17 +103,17 @@ Files articoli
 Files clienti
 ~~~~~~~~~~~~~
 
-* `Clienti e Fornitori <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_clifor_gen.cs>`_
-* `Agenti cliente <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_clifor_age.cs>`_
-* `Blocchi <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_clifor_blo.cs>`_
+* `Clienti e Fornitori(*) <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_clifor_gen.cs>`_
+* `Agenti cliente(*) <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_clifor_age.cs>`_
+* `Blocchi(*) <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_clifor_blo.cs>`_
 * `Calendario girovisita <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_clifor_girovisita.cs>`_
-* `Destinazioni <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_clifor_dest.cs>`_
+* `Destinazioni(*) <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_clifor_dest.cs>`_
 * `Categorie <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_clifor_cate.cs>`_
 * `Contatti <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_clifor_detcon.cs>`_
 * `Note <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_clifor_note.cs>`_
 * `Testate documenti <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_clifor_testdoc.cs>`_
 * `Righe documenti <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_clifor_righdoc.cs>`_
-* `Scadenze <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_clifor_scadoc.cs>`_
+* `Scadenze(*) <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_clifor_scadoc.cs>`_
 * `Fatturato <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_clifor_fatt.cs>`_
 
 Files leads
@@ -131,8 +133,8 @@ Files leads
 Files tabelle di base
 ~~~~~~~~~~~~~~~~~~~~~
 
-* `Città <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_citta.cs>`_
-* `Condizioni di pagamento <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_condpag.cs>`_
+* `Città(*) <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_citta.cs>`_
+* `Condizioni di pagamento(*) <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_condpag.cs>`_
 * `Condizioni di pagamento in lingua <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_condpag_lang.cs>`_
 * `Nazioni <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_nazioni.cs>`_
 * `Porti <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_porto.cs>`_
