@@ -172,3 +172,34 @@ Files speciali
 * `Tracciato per campi custom <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_custom_fields.cs>`_
 * `Catalogo multimediale <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_multimedia.cs>`_
 * `Reports <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_reports.cs>`_
+
+Visibilità articoli per agente
+------------------------------
+
+E' possibile definire un set di articoli da associare a uno o più agenti. Per fare questo sono stati predisposti 3 tracciati specifici:
+
+* `Cataloghi <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_cataloghi.cs>`_
+* `Cataloghi Articolo <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_cataloghi_art.cs>`_
+* `Cataloghi Agente <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_cataloghi_agente.cs>`_
+
+Cataloghi
+~~~~~~~~~
+Il tracciato dei cataloghi deve contenere l'elenco anagrafico di tutti i cataloghi disponibili. 
+Può essere usato ad esempio per una promozione o una collezione di prodotti.
+
+Cataloghi Articolo
+~~~~~~~~~~~~~~~~~~
+Il tracciato cataloghi articolo contiene l'associazione fra il catalogo e gli agenti che lo possono utilizzare. 
+Ggenti associati ad un catalogo vedono solo gli articoli in esso contenuti.
+
+Cataloghi Agente
+~~~~~~~~~~~~~~~~
+Questo tracciato contiene l'associazione fra l'agente e i suoi cataloghi.
+Un Agente può vedere tutti gli articoli dei cataloghi a cui è associto
+
+
+
+
+
+
+
