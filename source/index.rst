@@ -52,6 +52,7 @@ La documentazione è organizzata nelle seguenti sezioni:
  
   app-manager
   par-appmanager
+  art-deperibili
   acquisizione-dati
 
 .. _reports_main:
