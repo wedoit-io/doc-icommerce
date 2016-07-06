@@ -54,13 +54,6 @@ La documentazione è organizzata nelle seguenti sezioni:
   par-appmanager
   art-deperibili
   acquisizione-dati
-
-.. _reports_main:
-
-.. toctree::
-  :maxdepth: 2
-  :caption: Reports
-
   rpt-funzionamento
   rpt-report-standard
 
