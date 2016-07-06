@@ -18,11 +18,6 @@ sulla personalizzazione del tracciato di esportazione dei dati
 dell'articolo (**io\_art.dat**). Il campo da valorizzare è
 **PREZZO\_MIN\_VEN**
 
-+---------------+
-| Tracciato     |
-+===============+
-| io\_art.dat   |
-+---------------+
 
 Aggiungi questo numero di giorni alla data di consegna
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
