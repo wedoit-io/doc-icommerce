@@ -1,6 +1,9 @@
 Parametri progetto
 ==================
 
+Parametri funzionali
+--------------------
+
 Numero sconti
 ~~~~~~~~~~~~~
 
