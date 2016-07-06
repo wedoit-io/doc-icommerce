@@ -1,0 +1,4 @@
+Parametri AppManager
+===================
+
+TODO
