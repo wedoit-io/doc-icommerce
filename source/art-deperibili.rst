@@ -1,4 +1,4 @@
-Articoli Deperibili
+Articoli deperibili
 ===================
 
 La legge italiana 27/2012, più nota con il nome "art. 62", impone che gli articoli classificati come "deperibili"
