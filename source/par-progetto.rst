@@ -3,7 +3,7 @@ Parametri progetto
 
 Parametri funzionali
 ~~~~~~~~~~~~~~~~~~~~
-i
+
 Numero sconti
 -------------
 
