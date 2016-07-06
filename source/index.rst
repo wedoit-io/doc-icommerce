@@ -51,6 +51,7 @@ La documentazione è organizzata nelle seguenti sezioni:
   :caption: App Manager
  
   app-manager
+  par-appmanager
   acquisizione-dati
 
 .. _reports_main:
