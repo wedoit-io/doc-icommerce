@@ -18,28 +18,27 @@ sulla personalizzazione del tracciato di esportazione dei dati
 dell'articolo (**io\_art.dat**). Il campo da valorizzare è
 **PREZZO\_MIN\_VEN**
 
-
 Aggiungi questo numero di giorni alla data di consegna
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Per rendere più rapida la raccolta degli ordini, è possibile aggiungere
 un numero fisso di giorni alla proposta della data di consegna in fase
-di inserimento dell'ordine. Péer fare un esempio, se si imposta questo
-campo a 2, significa che se prendo l'ordine martedì, la data di consegna
-che propone il programma sarà quella di giovedì (dopo 2 giorni) Il
-valore predefinito, se non impostato, è 0
+di inserimento dell'ordine. Se, ad esempio, si imposta questo campo a 2,
+significa che se prendo l'ordine martedì, la data di consegna
+che propone il programma sarà quella di giovedì (dopo 2 giorni) 
+Il valore predefinito, se non impostato, è 0
 
 Decimali da usare nelle quantità
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-In questo campo impostare il numero massimo di decimali che si vuole
-gestire. Il valore predefinito, se non impostato, è 2
+Inserire in questo campo il numero massimo di decimali che si vuole gestire.
+Il valore predefinito, se non impostato, è 2
 
 Numero di decimali per i prezzi
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Inserire in questo campo il numero massimo di decimali da usare per i
-prezzi Il valore predefinito, se non impostato, è 2
+Inserire in questo campo il numero massimo di decimali da usare per i prezzi.
+Il valore predefinito, se non impostato, è 2
 
 Lo sconto massimo di vendita deve bloccare l'ordine
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -57,22 +56,6 @@ Come per il prezzo minimo di vendita, anche in questo caso è possibile
 definire una quantita minima sotto la quale non è possibile prendere
 l'ordine. Il tracciato da personalizzare è quello degli articoli
 (**io\_art.dat**) e il campo è **QTA\_MIN\_VEND**
-
-+---------------+
-| Tracciato     |
-+===============+
-| io\_art.dat   |
-+---------------+
-
-Numero di giorni dalla precedente sincronizzazione
---------------------------------------------------
-
-Trattando dati in maniera disconnessa, se l'agente non effettua la
-sincronizzazione per aggiornare i dati dei listini, c'è il rischio che i
-prezzi possano essere vecchi. Per questo motivo è possibile impostare un
-numero massimo di giorni oltre il quale l'applicazione non consente di
-prendere ordini se non si effettua la sincronizzazione dei dati.
-Impostare in questo campo tale numero di giorni
 
 Parametri di visualizzazione
 ----------------------------
