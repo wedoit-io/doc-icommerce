@@ -16,6 +16,6 @@ Dall'interfaccia web dell'AppManager (http://am.apexnet.it) è possibile visuali
 1. I dati ricevuti dal gestionale (es: listini, anagrafiche generali, ecc.)
 2. I dati ricevuti dagli iPad (es: ordini, clienti, note, ecc..)
 3. La configurazione su come trattare i dati (es: come suddividere gli ordini)
-3. I Log dei caricamenti dati
-4. Funzionalità accessorie (es: gestione art. 62 o girivisita)
+4. I Log dei caricamenti dati
+5. Funzionalità accessorie (es: gestione art. 62 o girivisita)
 
