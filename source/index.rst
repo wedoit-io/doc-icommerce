@@ -49,7 +49,8 @@ La documentazione è organizzata nelle seguenti sezioni:
 .. toctree::
   :maxdepth: 2
   :caption: App Manager
-
+ 
+  app-manager
   acquisizione-dati
 
 .. _reports_main:
