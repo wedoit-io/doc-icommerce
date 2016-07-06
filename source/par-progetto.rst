@@ -3,7 +3,7 @@ Parametri progetto
 
 Parametri funzionali
 ~~~~~~~~~~~~~~~~~~~~
-
+i
 Numero sconti
 -------------
 
@@ -88,7 +88,7 @@ vogliono vedere nel modulo schede anche i dati anche di altri agenti.
 .. note:: Per consentire la visualizzazione di tutti i clienti anche nel modulo Ordini, bisogna togliere il codice agente dalla configurazione dell'utente.
 
 
-Mostra UM secondaria invede della primaria in storico ordini
+Mostra UM secondaria invece della primaria in storico ordini
 ------------------------------------------------------------
 
 Lo storico degli ordini mostra in lista l'unità di misura con sui è
