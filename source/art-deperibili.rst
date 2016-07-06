@@ -6,17 +6,16 @@ debbano avere condizioni di pagamenti particolari.
 
 Per far fronte a questa normativa, iCommerce gestisce la problematica in questo modo:
 
-1. Innanzitutto classifica gli articoli di questo tipo in base ad un opportuno campo del tracciato articoli chiamato COD\_DEPERIBILITA
-2. Utilizza la gestione degli split dei dati per raggruppare gli articoli in ordini diversi.
-3. Recupera il codice di pagamente del cliente dell'ordine
-4. In base ad una tabella di decodifica predente in AppManager cambia il codice di pagamento in un altro.
+1. Classifica gli articoli deperibili in base al campo del tracciato articoli chiamato COD\_DEPERIBILITA
+2. Suddivide gli ordini che contengono articoli deperibili (paragrafo precedente).
+3. Modifica il codice di pagamento degli ordini che contengono articoli deperibili
 
 Identificazione degli articoli deperibili
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Quando si estraggono i dati degli articoli occorre classificare con un codice qualunque gli articoli deperibili da quelli che non lo sono.
-In realtà per l'AppManager non è importante sapere quale COD\_DEPERIBILITA identifica gli articoli deperibili.
-Per AppManager tale valore viene usato solo come criterio per raggruppare gli articoli in ordini diversi.
-Ovviamente il flag per la suddivisione degli ordini in base a tale codice, deve essere attivata.
+In realtà per l'AppManager non è importante sapere quale COD\_DEPERIBILITA identifica gli articoli deperibili in quanto tale valore viene usato solo come criterio per raggruppare gli articoli in ordini diversi.
+
+.. warning:: Abilitare il flag per la suddivisione degli ordini in base al codice deperibilita
 
 Modifica del Codice di Pagamento
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
