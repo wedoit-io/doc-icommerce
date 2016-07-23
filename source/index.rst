@@ -8,7 +8,6 @@ La documentazione è organizzata nelle seguenti sezioni:
 * :ref:`installation_main`
 * :ref:`lm_main`
 * :ref:`am_main`
-* :ref:`reports_main`
 * :ref:`integration_main`
 * :ref:`faq_main`
 
