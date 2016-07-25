@@ -1,6 +1,6 @@
 Documentazione iCommerce
 ========================
-Benvenuti sul sito documentale di iCommerce, l'app di WEDO Srl per la raccolta ordini su iPad.
+Benvenuti sul sito documentale di iCommerce, l'applicazione iOS per la raccolta ordini su iPad.
 
 La documentazione è organizzata nelle seguenti sezioni:
 
