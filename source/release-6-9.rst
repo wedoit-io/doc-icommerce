@@ -4,7 +4,7 @@ rel. 6.9 - 27/07/2016
 Anomalie
 -----------
 
-**Fix per il problema in fase di ricerca** - (rif: 11270)
+**Sistemato crash in fase di ricerca** - (rif: 11270)
 
 Risolto un problema che, dopo aver effettuato una ricerca ed aver aggiornato i dati, a volte mandava l'app in crash
 
@@ -20,7 +20,6 @@ Su ordine veloce, in testata ordine, ora la proposta delle destinazioni avviene 
 
 Il default (al tap sulla spunta a sinistra) della quantità proposta per ordine da storico viene cercato su entrambe le quantità dell'archivio storico prodotti.
 L'unità di misura ricercata deve coincidere con quella di vendita. 
-
 
 **Allineato comportamento ricalcolo prezzo in Storico** - (rif: 11361)
 
