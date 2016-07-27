@@ -1,7 +1,8 @@
 rel. 6.9 - 27/07/2016
 =====================
 
-## Anomalie
+Anomalie
+-----------
 
 **_Fix per il problema in fase di ricerca_** - (rif: 11270)
 
@@ -25,7 +26,8 @@ L'unità di misura ricercata deve coincidere con quella di vendita.
 
 Ora sia dalla lista principale dello storico che nel dettaglio del form ordine il prezzo viene sempre ricalcolato al variare della quantità
 
-### Novità
+Novità
+------
 
 **_Aggiunta gestione 'fasce sconto'_** - (rif: 11163)
 
