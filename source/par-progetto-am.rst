@@ -37,5 +37,5 @@ Modifica del logo nelle stampe
 
 Logo
 ----
-Questa funzione permette di caricare un logo cliente personalizzato. Si faccia riferimento alla documentazione specifica nella sezione report per le indicazioni su come utilizzare questa funzione.
+Questa funzione permette di caricare un logo cliente personalizzato. Si faccia riferimento alla documentazione specifica nella sezione report per le indicazioni su come utilizzare questa funzione (:doc:`rpt-funzionamento`).
 
