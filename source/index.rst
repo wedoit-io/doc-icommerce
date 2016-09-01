@@ -39,7 +39,7 @@ La documentazione è organizzata nelle seguenti sezioni:
 
   license-manager
   par-lm
-  par-progetto
+  par-progetto-lm
   par-utente
 
 .. _am_main:
@@ -50,6 +50,7 @@ La documentazione è organizzata nelle seguenti sezioni:
  
   app-manager
   par-appmanager
+  par-progetto-am
   art-deperibili
   acquisizione-dati
   rpt-funzionamento
