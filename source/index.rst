@@ -51,7 +51,7 @@ La documentazione è organizzata nelle seguenti sezioni:
   app-manager
   par-appmanager
   par-progetto-am
-  giro-visita
+  girovisita
   art-deperibili
   acquisizione-dati
   rpt-funzionamento
