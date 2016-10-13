@@ -25,3 +25,9 @@ Per farlo operare come segue:
 6. In alto, nella maschera, selezionare il giorno che si desidera impostare in maniera massiva sulla selezione effettuata.
 7. Cliccare il pulsante "Imposta per i clienti selezionati
 8. Cliccare il pulsante "Pubblica" per rendere definitive le modifiche
+
+Invio dati all'iPad
+~~~~~~~~~~~~~~~~~~~
+Quando si clicca il pulsante "Pubblica", i dati diventano disponibili per la prossima sincronizzazione degli iPad.
+Quando i dati del Girovisita sono presenti, la maschera di ricerca che si apre all'agente in fase di inserimento dell'ordine, mostra subito i dati raggruppati per giorno della settimana.
+
