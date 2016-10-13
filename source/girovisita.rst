@@ -1,15 +1,15 @@
 Girovisita
 ===========
 
-All'interno dell'AppManager' è possibile configurare una pianificazione settimanale delle visite che gli agenti possono fare sui loro clienti.
+All'interno dell'AppManager è possibile definire una pianificazione settimanale delle visite che ogni agente possono fare sui propri clienti.
+La funzione è contenuta all'interno del menu Gestione di AppManager.
 
 .. figure:: girovisita-menu.png
    :alt:
    
-La funzione Girovisita, nel menu Gestione, inizialmente si presenta come una maschera vuota.
-
 Import dei nuovi clienti
 ~~~~~~~~~~~~~~~~~~~~~~~~
+Ad una prima apertura, inizialmente si presenta come una maschera vuota.
 Per aggiungere i clienti su cui pianificare i giorni della settimana, premere il pulsante **Importa nuovi clienti**.
 Questa funzione preleva i dati dell'ultima estrazione dei clienti fatta dal gestionale e li inserisce in una apposita anagrafica statica (che non viene cioè cancellata o caricata dai tracciati di estrazione).
 A questo punto nella maschera compariranno tutti i clienti.
