@@ -49,11 +49,15 @@ Il campo TIPO, deve indicare il tipo di dato che si sta aggiungendo.
 
 Può assumere i seguenti valori:
 
-0. String
-1. Date
-2. Datatime
-3. Integer
-4. Decimal
+======  ==========
+Valore  Tipo
+=====   ==========
+0       String
+1       Date
+2       Datatime
+3       Integer
+4       Decimal
+=====   ==========
 
 Campo CHIAVE_PADRE
 ------------------
