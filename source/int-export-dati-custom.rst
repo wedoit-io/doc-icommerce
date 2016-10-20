@@ -72,10 +72,12 @@ Per fare un esempio, se il tracciato contenesse il valore clienti in questo camp
 
 Esempi:
 
-CONTESTO | Luogo in cui viene mostrato
----------|-----------------------------
-clienti  | Modulo SCHEDE o ORDINI (dipende da VIS_MASK), Sottomodulo CLIENTI
-leads    | Modulo LEADS (dipende da VIS_MASK), Sottomodulo LEADS
+========  =======================================================================
+CONTESTO  Luogo in cui viene mostrato
+========  =======================================================================
+clienti   Modulo SCHEDE o ORDINI (dipende da VIS_MASK), Sottomodulo CLIENTI
+leads     Modulo LEADS (dipende da VIS_MASK), Sottomodulo LEADS
+========  =======================================================================
 
 
 
@@ -94,13 +96,15 @@ Identifica il modulo in cui si dedidera mostrare i dati. Per specificare tale va
 
 La maschera di bit è la seguente:
 
-```
+::
+
 +----->   posizione 2 - Modulo Crm
 | +---->  posizione 1 - Modulo Ordini
 | | +---> posizione 0 - Modulo Schede
 | | |
 x x x
-```
+
+::
 
 Esempi:
 
