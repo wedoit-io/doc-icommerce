@@ -98,13 +98,11 @@ La maschera di bit è la seguente:
 
 ::
 
-+----->   posizione 2 - Modulo Crm
-| +---->  posizione 1 - Modulo Ordini
-| | +---> posizione 0 - Modulo Schede
-| | |
-x x x
-
-::
+  +----->   posizione 2 - Modulo Crm
+  | +---->  posizione 1 - Modulo Ordini
+  | | +---> posizione 0 - Modulo Schede
+  | | |
+  x x x
 
 Esempi:
 
