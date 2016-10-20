@@ -51,6 +51,20 @@ Può assumere i seguenti valori:
 3. Integer
 4. Decimal
 
+Campo CHIAVE_PADRE
+------------------
+Campo attualmente NON GESTITO. Consentirà in futuro di gestire una gerarchia di dettagli.
+
+Campo CONTESTO
+---------------
+Il campo CONTESTO determina il luogo in cui i dati custom devono comparire. I valori possibili sono:
+
+- clienti
+- fornitori
+- prodotti
+- leads
+
+
 
 Tali contesti riguardano:
 
