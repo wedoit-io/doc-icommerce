@@ -7,8 +7,7 @@ Tali dati vengono visualizzati, nell'iPad, in un specifica scheda che appare in 
 .. figure:: int-export-dati-custom.png
    :alt:
 
-Il tracciato io_custom_fields.dat deve essere creato secondo le specifiche descritte in :doc:`int-export-dati`, e deve essere composto dai seguenti campi
-
+Il tracciato io_custom_fields.dat deve essere creato secondo le specifiche descritte in :doc:`int-export-dati`, e deve essere composto dai seguenti campi:
 
 ==================  ========================================================================================
 Nome del campo      Descrizione
@@ -27,7 +26,7 @@ ORDINAMENTO         Valore numerico che determina la sequenza di visualizzazione
 POSIZIONE_NOME      Impostare sempre a 0 (NON USATO)
 TIPO_DATO           Tipo di dato (es: 0 = String, 1 = Integer, ecc..)  
 DAT_ULT_MOD         Data di ultimo aggiornamento del dato (si vedao specifiche generali)
-==================  ===========================================================================================
+==================  ========================================================================================
 
 
 Vediamo ora nel dettaglio il significato di ogni campo.
@@ -39,9 +38,7 @@ Il campo VALORE invece, deve contenere il valore da mostrare a destra della labe
 
 Tipologia del dato
 ------------------
-Il campo TIPO_DATO, deve indicare il tipo di dato che si sta aggiungendo.
-
-Può assumere i seguenti valori:
+Il campo TIPO_DATO, deve indicare il tipo di dato che si sta aggiungendo. Può assumere i seguenti valori:
 
 ======  ==========
 Valore  Tipo
