@@ -12,7 +12,7 @@ Il tracciato io_custom_fields.dat deve essere creato secondo le specifiche descr
 ==================  ==================
 Nome del campo      Descrizione
 ==================  ==================
-CHIAVE              Valore univoco identificativo della riga
+CHIAVE              Valore univoco identificativo della riga (Non sono ammessi duplicati)
 COD_DITTA           Codice della ditta
 NOME                Nome della label
 VALORE              Valore della label
@@ -27,27 +27,16 @@ POSIZIONE_NOME      Impostare sempre a 0 (NON USATO)
 TIPO_DATO           Tipo di dato (es: 0 = String, 1 = Integer, ecc..)  
 DAT_ULT_MOD         Data di ultimo aggiornamento del dato (si vedao specifiche generali)
 ==================  ===========
+
 Vediamo ora nel dettaglio il significato di ogni campo.
 
-Campo CHIAVE
-------------
-Il campo chiave deve contenere un valore univoco della riga. In questo campo non sono ammessi valori duplicati
+Etichetta e valore del dato (NOME e VALORE)
+------------------------------------------- 
+Il campo NOME deve sempre contenere il valore alfanumerico che si desidera mostrare come descrizione della label del campo personalizzato.
+Il campo VALORE invece, deve contenere il valore da mostrare a destra della label
 
-Campo COD_DITTA
----------------
-Il campo COD_DITTA deve contenere il codice univoco della ditta presente nel gestionale da cui si effettua l'esportazione.
-Tutti record devono essere marcati con tale codice.
-
-Campo NOME
-----------
-Il campo NOME deve contenere il valore albanumerico che si desidera mostrare come descrizione della label del campo personalizzato.
-
-Campo VALORE
------------
-Questo campo deve contenere il valore da mostrare a destra della label (campo NOME)
-
-Campo TIPO_DATO
------------
+Tipologia del dato (TIPO_DATO)
+-----------------------------
 Il campo TIPO_DATO, deve indicare il tipo di dato che si sta aggiungendo.
 
 Può assumere i seguenti valori:
@@ -62,13 +51,9 @@ Valore  Tipo
 4       Decimal
 =====   ==========
 
-Campo CHIAVE_PADRE
-------------------
-Campo attualmente NON GESTITO. Consentirà in futuro di gestire una gerarchia di dettagli.
-
-Campo CONTESTO
----------------
-Il campo CONTESTO determina il luogo in cui i dati custom devono comparire. I valori possibili sono:
+Contesto di visualizzazione (CONTESTO)
+--------------------------------------
+Il campo CONTESTO determina il contesto del dato e quindi il luogo in cui i dati devono comparire. I valori possibili sono:
 
 =========  =============================
 Valore     Contesto di visualizzazione
@@ -93,8 +78,8 @@ leads     Modulo LEADS (dipende da VIS_MASK), Sottomodulo LEADS
 ========  =======================================================================
 
 
-Campo COD_EXT
--------------
+External code (COD_EXT)
+------------------------
 Il campo COD_EXT (codice esterno) rappresenta il vero e proprio collegamento fra il campo personalizzato e il dato anagrafico a cui esso afferisce, quindi:
 
 - Nel caso in cui il contesto è clienti, COD_EXT deve contenere il codice cliente
@@ -102,8 +87,8 @@ Il campo COD_EXT (codice esterno) rappresenta il vero e proprio collegamento fra
 - Nel caso in cui il contesto è prodotti, COD_EXT deve contenere il codice del prodotto
 - Nel caso in cui il contesto è leads, COD_EXT deve contenere il codice del leads
 
-Campo "VISUAL_MASK"
--------------------
+Modulo in cui visualizzare i dati (VISUAL_MASK)
+-----------------------------------------------
 Identifica il modulo in cui si dedidera mostrare i dati. Per specificare tale valore, si deve utilizzare una stringa di bit in cui ogni bit indica il modulo in cui il dato deve apparire.
 
 La maschera di bit è la seguente:
