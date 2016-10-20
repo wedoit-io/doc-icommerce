@@ -91,6 +91,7 @@ La documentazione è organizzata nelle seguenti sezioni:
   release-6-8
   release-6-7
   release-6-6
+  release-6-5
 
 Indici e Tabelle
 ================
