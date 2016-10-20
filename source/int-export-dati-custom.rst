@@ -2,6 +2,9 @@ Esportare dati custom
 =====================
 
 Esiste un particolare tracciato, chiamato io_custom_fields.dat, che consente di aggiungere valori personalizzati in alcuni punti  applicativi predefiniti.
+Tali dati vengono visualizzati in un specifica scheda che appare nel programma con il nome Altro.
+
+
 
 Tale tracciato deve essere creato secondo le specifiche generai è deve essere composto dai seguenti campi:
 
