@@ -80,7 +80,6 @@ leads     Modulo LEADS (dipende da VIS_MASK), Sottomodulo LEADS
 ========  =======================================================================
 
 
-
 Campo COD_EXT
 -------------
 Il campo COD_EXT (codice esterno) rappresenta il vero e proprio collegamento fra il campo personalizzato e il dato anagrafico a cui esso afferisce, quindi:
@@ -106,9 +105,12 @@ La maschera di bit è la seguente:
 
 Esempi:
 
-VIS_MASK |Modulo in cui viene mostrato
----------|-----------------------------
-100      | CRM
-001      | SCHEDE
-011      | SCHEDE e ORDINI
-101      | CRM e SCHEDE
+========  =============================
+VIS_MASK  Modulo in cui viene mostrato
+========  =============================
+100       CRM
+001       SCHEDE
+011       SCHEDE e ORDINI
+101       CRM e SCHEDE
+========  =============================
+
