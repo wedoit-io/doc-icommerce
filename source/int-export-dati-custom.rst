@@ -1,14 +1,13 @@
 Esportare dati custom
 =====================
 
-Esiste un particolare tracciato, chiamato io_custom_fields.dat, che consente di aggiungere valori personalizzati in alcuni punti  applicativi predefiniti.
-Tali dati vengono visualizzati in un specifica scheda che appare in vari punti del programma con il nome Altro.
+Esiste un particolare tracciato, chiamato io_custom_fields.dat, che consente di aggiungere dati personalizzati in alcuni punti  applicativi predefiniti.
+Tali dati vengono visualizzati, nell'iPad, in un specifica scheda che appare in vari punti del programma con il nome Altro.
 
 .. figure:: int-export-dati-custom.png
    :alt:
 
-
-Tale tracciato deve essere creato secondo le specifiche generai è deve essere composto dai seguenti campi:
+Il tracciato io_custom_fields.dat deve essere creato secondo le specifiche generali (int-export-dati.rst) è deve essere composto dai seguenti campi:
 
 - CHIAVE
 - COD_DITTA  
@@ -68,6 +67,18 @@ Il campo CONTESTO determina il luogo in cui i dati custom devono comparire. I va
 - fornitori
 - prodotti
 - leads
+
+Per fare un esempio, se il tracciato contenesse il valore clienti in questo campo, il dato personalizzato verrebbe mostrato nella scheda Altro che in fondo ai dettagli della scheda clienti (il successivo campo VIS_MASK determina se la visualizzazione deve avvenire solo nel modulo schede, solo nel modulo ordini o in una combinazione dei 2 moduli).
+
+Campo COD_EXT
+-------------
+Il campo COD_EXT (codice esterno) rappresenta il vero e proprio collegamento fra il campo personalizzato e il dato anagrafico a cui esso afferisce, quindi:
+
+- Nel caso in cui il contesto è clienti, COD_EXT deve contenere il codice cliente
+- Nel caso in cui il contesto è fornitori, COD_EXT deve contenere il codice fornitore
+- Nel caso in cui il contesto è prodotti, COD_EXT deve contenere il codice del prodotto
+- Nel caso in cui il contesto è leads, COD_EXT deve contenere il codice del leads
+
 
 
 
