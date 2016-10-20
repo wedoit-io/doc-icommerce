@@ -7,7 +7,7 @@ Tali dati vengono visualizzati, nell'iPad, in un specifica scheda che appare in 
 .. figure:: int-export-dati-custom.png
    :alt:
 
-Il tracciato io_custom_fields.dat deve essere creato secondo le specifiche generali (int-export-dati.rst) è deve essere composto dai seguenti campi:
+Il tracciato io_custom_fields.dat deve essere creato secondo quanto descritto in :doc:`int-export-dati` è deve essere composto dai seguenti campi:
 
 - CHIAVE
 - COD_DITTA  
