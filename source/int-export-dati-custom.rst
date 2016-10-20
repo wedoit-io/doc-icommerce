@@ -1,13 +1,13 @@
 Esportare dati personalizzati
 =============================
 
-Esiste un particolare tracciato, chiamato io_custom_fields.dat, che consente di aggiungere dati personalizzati in alcuni punti  applicativi predefiniti.
-Tali dati vengono visualizzati, nell'iPad, in un specifica scheda che appare in vari punti del programma con il nome Altro.
+Esiste un particolare tracciato, chiamato ``io_custom_fields.dat``, che consente di aggiungere dati personalizzati in alcuni punti  applicativi predefiniti.
+Tali dati vengono visualizzati, nell'iPad, in un specifica scheda che appare in vari punti del programma con il nome ``Altro``.
 
 .. figure:: int-export-dati-custom.png
    :alt:
 
-Il tracciato io_custom_fields.dat deve essere creato secondo le specifiche descritte in :doc:`int-export-dati`, e deve essere composto dai seguenti campi:
+Il tracciato ``io_custom_fields.dat`` deve essere creato secondo le specifiche descritte in :doc:`int-export-dati`, e deve essere composto dai seguenti campi:
 
 ==================  ========================================================================================
 Nome del campo      Descrizione
@@ -29,16 +29,14 @@ DAT_ULT_MOD         Data di ultimo aggiornamento del dato (si vedao specifiche g
 ==================  ========================================================================================
 
 
-Vediamo ora nel dettaglio il significato di ogni campo.
-
 Etichetta e valore del dato
 --------------------------- 
-Il campo NOME deve sempre contenere il valore alfanumerico che si desidera mostrare come descrizione della label del campo personalizzato.
-Il campo VALORE invece, deve contenere il valore da mostrare a destra della label
+Il campo ``NOME`` deve sempre contenere il valore alfanumerico che si desidera mostrare come descrizione della label del campo personalizzato.
+Il campo ``VALORE`` invece, deve contenere il valore da mostrare a destra della label
 
 Tipologia del dato
 ------------------
-Il campo TIPO_DATO, deve indicare il tipo di dato che si sta aggiungendo. Può assumere i seguenti valori:
+Il campo ``TIPO_DATO``, deve indicare il tipo di dato che si sta aggiungendo. Può assumere i seguenti valori:
 
 ======  ==========
 Valore  Tipo
@@ -52,7 +50,7 @@ Valore  Tipo
 
 Contesto di visualizzazione
 ---------------------------
-Il campo CONTESTO determina il contesto del dato e quindi il luogo in cui i dati devono comparire. I valori possibili sono:
+Il campo ``CONTESTO`` determina il contesto del dato e quindi il luogo in cui i dati devono comparire. I valori possibili sono:
 
 =========  =============================
 Valore     Contesto di visualizzazione
@@ -79,15 +77,15 @@ leads     Modulo LEADS (dipende da VIS_MASK), Sottomodulo LEADS
 
 External code
 -------------
-Il campo COD_EXT (codice esterno) rappresenta il vero e proprio collegamento fra il campo personalizzato e il dato anagrafico a cui esso afferisce, quindi:
+Il campo ``COD_EXT`` (codice esterno) rappresenta il vero e proprio collegamento fra il campo personalizzato e il dato anagrafico a cui esso afferisce, quindi:
 
-- Nel caso in cui il contesto è clienti, COD_EXT deve contenere il codice cliente
-- Nel caso in cui il contesto è fornitori, COD_EXT deve contenere il codice fornitore
-- Nel caso in cui il contesto è prodotti, COD_EXT deve contenere il codice del prodotto
-- Nel caso in cui il contesto è leads, COD_EXT deve contenere il codice del leads
+- Nel caso in cui ``CONTESTO`` è ``clienti``, ``COD_EXT`` deve contenere il codice cliente
+- Nel caso in cui ``CONTESTO`` è ``fornitori``, ``COD_EXT`` deve contenere il codice fornitore
+- Nel caso in cui ``CONTESTO`` è ``prodotti``, ``COD_EXT`` deve contenere il codice del prodotto
+- Nel caso in cui ``CONTESTO`` è ``leads``, ``COD_EXT`` deve contenere il codice del leads
 
-Modulo in cui visualizzare i dati (VISUAL_MASK)
------------------------------------------------
+Impostare dove visualizzare i dati
+---------------------------------
 Identifica il modulo in cui si dedidera mostrare i dati. Per specificare tale valore, si deve utilizzare una stringa di bit in cui ogni bit indica il modulo in cui il dato deve apparire.
 
 La maschera di bit è la seguente:
