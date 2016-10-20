@@ -33,7 +33,23 @@ Tutti record devono essere marcati con tale codice.
 
 Campo NOME
 ----------
-Il compo nome deve contenere il valore albanumerico che si desidera mostrare come descrizione della label del campo personalizzato.
+Il campo NOME deve contenere il valore albanumerico che si desidera mostrare come descrizione della label del campo personalizzato.
+
+Campo VALORE
+-----------
+Questo campo deve contenere il valore da mostrare a destra della label (campo NOME)
+
+Campo TIPO
+-----------
+Il campo TIPO, deve indicare il tipo di dato che si sta aggiungendo.
+
+Può assumere i seguenti valori:
+
+0. String
+1. Date
+2. Datatime
+3. Integer
+4. Decimal
 
 
 Tali contesti riguardano:
