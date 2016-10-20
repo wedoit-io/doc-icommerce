@@ -65,6 +65,7 @@ La documentazione è organizzata nelle seguenti sezioni:
 
   int-intro-integrazione
   int-export-dati
+  int-export-dati-custom.rst
   int-export-catalogo
   int-import-dati-ws
   int-import-dati
