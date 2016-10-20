@@ -67,14 +67,20 @@ Campo CONTESTO
 ---------------
 Il campo CONTESTO determina il luogo in cui i dati custom devono comparire. I valori possibili sono:
 
-- clienti
-- fornitori
-- prodotti
-- leads
+=========  =============================
+Valore     Contesto di visualizzazione
+=========  =============================
+clienti    Visibile in Modulo Clienti
+fornitori  Visibile in modulo Fornitori
+prodotti   Visibile in Modulo Prodotti
+leads      Visibile in Modulo Leads
+=========  =============================  
 
-Per fare un esempio, se il tracciato contenesse il valore clienti in questo campo, il dato personalizzato verrebbe mostrato nella scheda Altro che in fondo ai dettagli della scheda clienti (il successivo campo VIS_MASK determina se la visualizzazione deve avvenire solo nel modulo schede, solo nel modulo ordini o in una combinazione dei 2 moduli).
+Per fare un esempio, se il tracciato contenesse il valore clienti in questo campo, il dato personalizzato verrebbe mostrato nella scheda Altro, in fondo a destra fra i dettagli della scheda clienti.
 
-Esempi:
+Il successivo campo VIS_MASK determina se la visualizzazione deve avvenire solo nel modulo schede, solo nel modulo ordini o in una combinazione dei 2 moduli.
+
+Alcuni esempi:
 
 ========  =======================================================================
 CONTESTO  Luogo in cui viene mostrato
@@ -109,12 +115,12 @@ La maschera di bit è la seguente:
 
 Esempi:
 
-========  =============================
-VIS_MASK  Modulo in cui viene mostrato
-========  =============================
+========  ============================================
+VIS_MASK  Modulo in cui viene mostrata la scheda Altro
+========  ============================================
 100       CRM
 001       SCHEDE
 011       SCHEDE e ORDINI
 101       CRM e SCHEDE
-========  =============================
+========  ============================================
 
