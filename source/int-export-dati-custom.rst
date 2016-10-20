@@ -30,13 +30,13 @@ DAT_ULT_MOD         Data di ultimo aggiornamento del dato (si vedao specifiche g
 
 Vediamo ora nel dettaglio il significato di ogni campo.
 
-Etichetta e valore del dato (NOME e VALORE)
-------------------------------------------- 
+Etichetta e valore del dato
+--------------------------- 
 Il campo NOME deve sempre contenere il valore alfanumerico che si desidera mostrare come descrizione della label del campo personalizzato.
 Il campo VALORE invece, deve contenere il valore da mostrare a destra della label
 
-Tipologia del dato (TIPO_DATO)
------------------------------
+Tipologia del dato
+------------------
 Il campo TIPO_DATO, deve indicare il tipo di dato che si sta aggiungendo.
 
 Può assumere i seguenti valori:
@@ -51,8 +51,8 @@ Valore  Tipo
 4       Decimal
 =====   ==========
 
-Contesto di visualizzazione (CONTESTO)
---------------------------------------
+Contesto di visualizzazione
+---------------------------
 Il campo CONTESTO determina il contesto del dato e quindi il luogo in cui i dati devono comparire. I valori possibili sono:
 
 =========  =============================
@@ -78,8 +78,8 @@ leads     Modulo LEADS (dipende da VIS_MASK), Sottomodulo LEADS
 ========  =======================================================================
 
 
-External code (COD_EXT)
-------------------------
+External code
+-------------
 Il campo COD_EXT (codice esterno) rappresenta il vero e proprio collegamento fra il campo personalizzato e il dato anagrafico a cui esso afferisce, quindi:
 
 - Nel caso in cui il contesto è clienti, COD_EXT deve contenere il codice cliente
