@@ -1,5 +1,5 @@
-Esportare dati custom
-=====================
+Esportare dati personalizzati
+=============================
 
 Esiste un particolare tracciato, chiamato io_custom_fields.dat, che consente di aggiungere dati personalizzati in alcuni punti  applicativi predefiniti.
 Tali dati vengono visualizzati, nell'iPad, in un specifica scheda che appare in vari punti del programma con il nome Altro.
