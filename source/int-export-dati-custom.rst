@@ -7,23 +7,26 @@ Tali dati vengono visualizzati, nell'iPad, in un specifica scheda che appare in 
 .. figure:: int-export-dati-custom.png
    :alt:
 
-Il tracciato io_custom_fields.dat deve essere creato secondo quanto descritto in :doc:`int-export-dati` è deve essere composto dai seguenti campi:
+Il tracciato io_custom_fields.dat deve essere creato secondo le specifiche descritte in :doc:`int-export-dati`, e deve essere composto dai seguenti campi:
 
-- CHIAVE
-- COD_DITTA  
-- NOME 
-- VALORE 
-- TIPO 
-- CHIAVE_PADRE 
-- CONTESTO 
-- COD_EXT 
-- VISUAL_MASK  
-- POSIZIONE_VALORE  
-- ORDINAMENTO 
-- POSIZIONE_NOME 
-- TIPO_DATO  
-- DAT_ULT_MOD
-
+==================  ==================
+Nome del campo      Descrizione
+==================  ==================
+CHIAVE              Valore univoco identificativo della riga
+COD_DITTA           Codice della ditta
+NOME                Nome della label
+VALORE              Valore della label
+TIPO                Impostare sempre a 1 (NON USATO
+CHIAVE_PADRE        Impostare sempre a 1 (NON USATO)
+CONTESTO            Contesto del dato (es: clienti, fornitori, ecc..)
+COD_EXT             Campo di collegamento con il contesto (es: codice articolo, codice cliente, ecc..)
+VISUAL_MASK         Posto in viene visualizzato il dato
+POSIZIONE_VALORE    Impostare sempre a 1 (NON USATO)
+ORDINAMENTO         Valore numerico che determina la sequenza di visualizzazione del dato (es: 1)
+POSIZIONE_NOME      Impostare sempre a 0 (NON USATO)
+TIPO_DATO           Tipo di dato (es: 0 = String, 1 = Integer, ecc..)  
+DAT_ULT_MOD         Data di ultimo aggiornamento del dato (si vedao specifiche generali)
+==================  ===========
 Vediamo ora nel dettaglio il significato di ogni campo.
 
 Campo CHIAVE
@@ -43,9 +46,9 @@ Campo VALORE
 -----------
 Questo campo deve contenere il valore da mostrare a destra della label (campo NOME)
 
-Campo TIPO
+Campo TIPO_DATO
 -----------
-Il campo TIPO, deve indicare il tipo di dato che si sta aggiungendo.
+Il campo TIPO_DATO, deve indicare il tipo di dato che si sta aggiungendo.
 
 Può assumere i seguenti valori:
 
