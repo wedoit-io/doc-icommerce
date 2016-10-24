@@ -20,7 +20,7 @@ TIPO                Impostare sempre a 1 (NON USATO)
 CHIAVE_PADRE        Impostare sempre con un valore vuoto (NESSUN VALORE)
 CONTESTO            Contesto del dato (es: clienti, fornitori, ecc..)
 COD_EXT             Campo di collegamento con il contesto (es: codice articolo, codice cliente, ecc..)
-VISUAL_MASK         Posto in viene visualizzato il dato
+VISUAL_MASK         Posto in cui viene visualizzato il dato in base ad una maschera di bit
 POSIZIONE_VALORE    Impostare sempre a 1 (NON USATO)
 ORDINAMENTO         Valore numerico che determina la sequenza di visualizzazione del dato (es: 1)
 POSIZIONE_NOME      Impostare sempre a 0 (NON USATO)
