@@ -16,7 +16,7 @@ CHIAVE              Valore univoco identificativo della riga (Non sono ammessi d
 COD_DITTA           Codice della ditta
 NOME                Nome della label
 VALORE              Valore della label
-TIPO                Impostare sempre a 1 (NON USATO
+TIPO                Impostare sempre a 1 (NON USATO)
 CHIAVE_PADRE        Impostare sempre con un valore vuoto (NESSUN VALORE)
 CONTESTO            Contesto del dato (es: clienti, fornitori, ecc..)
 COD_EXT             Campo di collegamento con il contesto (es: codice articolo, codice cliente, ecc..)
