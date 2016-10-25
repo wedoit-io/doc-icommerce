@@ -7,6 +7,8 @@ Tali dati vengono visualizzati, nell'iPad, in un specifica scheda che appare in 
 .. figure:: int-export-dati-custom.png
    :alt:
 
+.. note:: La visualizzazione della scheda Altro essere attivata dal nostro personale
+
 Il tracciato ``io_custom_fields.dat`` deve essere creato secondo le specifiche descritte in :doc:`int-export-dati`, e deve essere composto dai seguenti campi:
 
 ==================  ========================================================================================
