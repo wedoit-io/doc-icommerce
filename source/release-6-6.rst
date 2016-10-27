@@ -10,7 +10,16 @@ Risolto problema inserimento prezzo con decimali se il device è in inglese
 
 **Cambiata gestione delle note di credito nella sezione Incassi** - (rif: 10746)
 
-Negli incassi, ora le note di credito devono essere stornate singolarmente e non vengono decurtate dal totale incassabile sul cliente.
+Nel modulo incassi, le note di credito non erano visibili nei report.
+Inoltre, l'importo della nota di credito veniva decurtato dal totale delle scadenze per un cliente: in questo modo l'agente non poteva incassare tutte le scadenze senza considerare la nota di credito.
+
+La nuova gestione, funziona in questo modo:
+
+- E' possibile stornare una nota di credito singolarmente (quindi sarà visibile un incasso negativo relativo alla nota di credito)
+- Il totale incassabile per un cliente, considera solo le scadenze con importo positivo: in questo modo l'agente può chiudere ed incassare tutte le scadenze e decidere in seguito se stornare la nota di credito
+- Nel report degli incassi, è visibile "l'incasso" della nota di credito con importo negativo, che verrà sottratto al totale del documento.
+
+In pratica ora le note di credito devono essere stornate singolarmente e non vengono più decurtate dal totale incassabile sul cliente.
 La nota di credito è visibile nel report, ed è possibile incassare tutte le scadenze senza stornare eventuali note di credito.
 
 **Codice pagamento non corretto in riga ordine veloce** - (rif: 11114)
