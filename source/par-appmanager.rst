@@ -1,6 +1,9 @@
 Parametri AppManager
 ===================
 
+.. figure:: par-appmanager.png
+   :alt:
+   
 Split degli ordini
 ~~~~~~~~~~~~~~~~~~
 
@@ -22,6 +25,15 @@ Agendo su questi flag, la lista di articoli venduti viene raggruppata in base al
 Immaginiamo per esmepio, di aver attivato il flag di suddivisione per "data di consegna".
 L'agente prende gli ordini su 4 articoli ma in uno di questi imposta una data di consegna diversa.
 In questo caso AppManager crea 2 ordini. Uno con i primi 3 articoli e uno con quello con data consegna differente.
+
+Ordinamento righe ordine
+~~~~~~~~~~~~~~~~~~~~~~~
+L'opzione ```Ordinamento righe`` consente di modificare l'ordinamento delle righe ordine inserite sui dispositivi.
+L'ordinamento può essere configurato nel seguente modo:
+
+- In base all'inserimento originale (Come da presa ordine)
+- Ordinamento per descrizione
+
 
 Validazione dati device
 ~~~~~~~~~~~~~~~~~~~~~~~
