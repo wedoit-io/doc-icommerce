@@ -22,7 +22,7 @@ iCommerce è unaapplicazione sviluppata per piattaforma Apple. I
 requisiti minimi suggeriti per per l’utilizzo dell’applicazione sono i
 seguenti:
 
-Hardware minimo
+Hardware minimo consigliato
 
 -  iPhone 5
 -  iPad Air 2
