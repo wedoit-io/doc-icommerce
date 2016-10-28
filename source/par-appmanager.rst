@@ -35,7 +35,7 @@ L'ordinamento può essere configurato nel seguente modo:
 - In base all'inserimento originale (Come da presa ordine)
 - Ordinamento per descrizione
 
-.. note:: L'ordinamento configurato viene applicato su selle righe ordine ricevute dal momento della configurazioni in poi. Non agisce sugli ordini vecchi qualora vengano rimessi in coda per una nuova esportazione
+.. note:: L'ordinamento configurato viene applicato sulle righe ordine ricevute dal momento della configurazione in poi. Non agisce sugli ordini vecchi qualora vengano rimessi in coda per una nuova esportazione
    
 
 Validazione dati device
