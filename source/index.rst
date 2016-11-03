@@ -30,14 +30,6 @@ La documentazione è organizzata nelle seguenti sezioni:
   dropbox
   connettore
   gestionale
-
-.. _application_main:
-
-.. toctree::
-  :maxdepth: 2
-  :caption: Applicazione
-
-  incassi
   
 .. _lm_main:
 
@@ -78,6 +70,14 @@ La documentazione è organizzata nelle seguenti sezioni:
   int-import-dati-ws
   int-import-dati
 
+.. _application_main:
+
+.. toctree::
+  :maxdepth: 2
+  :caption: Funzionalità dell'app
+
+  incassi
+  
 .. _faq_main:
 
 .. toctree::
