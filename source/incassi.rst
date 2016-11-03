@@ -1,8 +1,7 @@
 Incassi
 =======
 
-Nel modulo ordini, è presente una funzione che consente di creare un `brogliaccio` degli incassi che l'agente può effettuare presso il cliente.
-
+Nel modulo ordini è disponibile una funzione che consente di creare un `brogliaccio` degli incassi dell'agente.
 Selezionando il cliente, il programma mostra un elenco con tutte le sue scadenze aperte.
 
 Nella lista vengono mostrate:
