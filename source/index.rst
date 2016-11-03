@@ -31,6 +31,14 @@ La documentazione è organizzata nelle seguenti sezioni:
   connettore
   gestionale
 
+.. _application_main:
+
+.. toctree::
+  :maxdepth: 2
+  :caption: Applicazione
+
+  incassi
+  
 .. _lm_main:
 
 .. toctree::
