@@ -37,7 +37,7 @@ una maschera in cui è possibile aggiungere l'incasso che può essere:
 Nel caso di incassi di note di credito, il programma chiede all'utente se si desidera inserire lo storno 
 della nota di credito. 
 
-..note: Non è possibile inserire lo storno parziale di una nota di credito.
+.. note:: Non è possibile inserire lo storno parziale di una nota di credito.
 
 Registrazione degli incassi
 -----------------------------
@@ -45,7 +45,7 @@ Gli incassi inseriti nel programma non transitano automaticamente nel gestionale
 Dopo aver inserito gli incassi, l'agente deve effettuare la stampa degli incassi effettuati e inviarla
 alla propria azienda.
 
-..note: Gli incassi non vengono inseriti automaticamente nel gestionale
+.. note:: Gli incassi non vengono inseriti automaticamente nel gestionale
 
 Se l'incasso è stato registrato dalla azienda, nella successiva sincronizzazione non verrà più visualizzato.
 
