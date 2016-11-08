@@ -13,7 +13,7 @@ Il pin che indica la posizione può assumere 3 diverse colorazioni:
 Quando più pin sono geograficamente vicini, viene mostrata una icona nera con un numero che indica il numero di clienti situati nella zona. Questa modalità di visualizzazione si chiama clustering.
 
 Il livello di raggruppamento dei pin sulla mappa, in base ad un potenzialmente elevato numero di cliente, può determinare un sensibile decremento delle prestazioni.
-Per questo motivo, nella sezione ```Setting``` dell' iPad è possibile modificare il livello di raggruppamento.
+Per questo motivo, nella sezione ``Settings`` dell' iPad è possibile modificare il livello di raggruppamento.
 
 .. figure:: mappa-clienti.png
    :alt:
