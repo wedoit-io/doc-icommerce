@@ -69,6 +69,7 @@ La documentazione è organizzata nelle seguenti sezioni:
   int-export-catalogo
   int-import-dati-ws
   int-import-dati
+  cataloghi-agente
 
 .. _application_main:
 
