@@ -1,5 +1,5 @@
-Mappa dei clienti
-=================
+Mappa clienti
+=============
 
 La mappa clienti mostra la posizione geografica dei clienti attraverso il posizionamento di un segnalino (pin).
 Tale posizione viene determinata in base alle coordinate definite sul tracciato io_clifor_gen.dat.
@@ -15,6 +15,10 @@ Quando più pin sono geograficamente vicini, viene mostrata una icona nera con u
 Il livello di raggruppamento dei pin sulla mappa, in base ad un potenzialmente elevato numero di cliente, può determinare un sensibile decremento delle prestazioni.
 Per questo motivo, nella sezione ```Setting``` dell' iPad è possibile modificare il livello di raggruppamento.
 
+.. figure:: mappa-clienti.png
+   :alt:
+   
+   
 Mancata visualizzazione dei pin
 --------
 
