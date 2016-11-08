@@ -3,7 +3,7 @@ Cataloghi agente
 
 E' possibile configurare iCommerce per mostrare solo un predefinito insieme
 di articoli per uno specifico agente.
-Per fare questo occorre utilizzare la gestione dei ```cataloghi per agente```,
+Per fare questo occorre utilizzare la gestione dei ``cataloghi per agente``,
 che si attiva automaticamente creando i seguenti tracciati:
 
 ========================  ============================================
