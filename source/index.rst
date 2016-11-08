@@ -77,8 +77,8 @@ La documentazione è organizzata nelle seguenti sezioni:
   :maxdepth: 2
   :caption: Funzionalità dell'app
 
-  incassi
   mappa-clienti
+  incassi
   
 .. _faq_main:
 
