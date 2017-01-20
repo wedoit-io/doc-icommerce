@@ -27,8 +27,8 @@ Dall'interfaccia web dell'AppManager è possibile visualizzare:
 
 Web services
 ~~~~~~~~~~~~
-A partire dalla versione 6.14, l'app accetta esclusivamente connessioni criptate verso domìni diversi da *.apexnet.it.
-I clienti che hanno una installazione AppManager sui propri server, devono quindi munisti di certificato digitale da installare su IIS.
+A partire dalla versione 6.14, la comunicazione fra l'app e l'appmanager su domini diversi da *.apexnet.it, è consentita solo con connessioni sicure (TLS 1.2).
+I clienti che hanno una installazione AppManager sui propri server, devono quindi munirti di certificato digitale da installare su IIS.
 Il certificato deve rispettare i seguenti criteri:
 
 1. Non deve essere self-signed, ma deve essere rilasciato da un ente certificatore valido.
