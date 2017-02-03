@@ -40,11 +40,12 @@ Ricezione dati dagli iPad
 
 I dati importati dal connettore possono essere:
 
--  Nuove offerte / ordini
--  Nuovi clienti
--  Nuove note cliente
--  Nuovi leads
--  Nuove note leads
+- Nuove offerte / ordini
+- Nuovi clienti
+- Nuove note su clienti esistenti
+- Nuovi leads
+- Nuove note su leads esistenti
+- Nuove attività su leads esistenti
 
 L’ importazione di tali dati, avviene in questo modo:
 
