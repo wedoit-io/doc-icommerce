@@ -9,6 +9,15 @@ Con iCommerce puoi anche raccogliere ordini, inserire nuovi clienti e molto altr
 
 iCommerce funziona sempre, perchè tutti i dati risiedono sul dispositivo e sono utilizzabili anche quando non c'è collegamento di rete.
 
+iCommerce parla la tua lingua perchè  è tradotta in 6 lingue:
+
+* Italiano
+* Tedesco
+* Spagnolo
+* Francese
+* Inglese
+* Giapponese
+
 Collega il tuo gestionale
 -------------------------
 Il collegamento fra iCommerce e il software gestionale avviene attraverso un plugin, chiamato `connettore </docs/connettore>`_.
