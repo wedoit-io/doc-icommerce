@@ -6,14 +6,13 @@ di articoli per uno specifico agente.
 Per fare questo occorre utilizzare la gestione dei ``cataloghi per agente``,
 che si attiva automaticamente creando i seguenti tracciati:
 
-========================   ============================================
+=========================  ============================================
 Nome tracciato             Descrizione                 
-========================   ============================================
+=========================  ============================================
 `io_cataloghi.dat`_        Anagrafica dei cataloghi
 `io_cataloghi_agente.dat`_ Associazione agenti per catalogo
 `io_cataloghi_art.dat`_    Associazione degli articoli al catalogo
-========================   ============================================
-
+=========================  ============================================
 
 L'applicazione determina quali articoli un agente può vedere, attraverso
 l'associazione di 2 entità associative (io_cataloghi_art.dat e io_cataloghi_agente.dat).
