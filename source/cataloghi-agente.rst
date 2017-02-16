@@ -9,9 +9,9 @@ che si attiva automaticamente creando i seguenti tracciati:
 =========================  ============================================
 Nome tracciato             Descrizione                 
 =========================  ============================================
-`io_cataloghi.dat`_        Anagrafica dei cataloghi
-`io_cataloghi_agente.dat`_ Associazione agenti per catalogo
-`io_cataloghi_art.dat`_    Associazione degli articoli al catalogo
+io_cataloghi.dat           Anagrafica dei cataloghi
+io_cataloghi_agente.dat    Associazione agenti per catalogo
+io_cataloghi_art.dat       Associazione degli articoli al catalogo
 =========================  ============================================
 
 L'applicazione determina quali articoli un agente può vedere, attraverso
