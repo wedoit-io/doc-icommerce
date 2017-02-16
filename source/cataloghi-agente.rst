@@ -9,10 +9,11 @@ che si attiva automaticamente creando i seguenti tracciati:
 ========================  ============================================
 Nome tracciato            Descrizione                 
 ========================  ============================================
-`io_cataloghi.dat <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_cataloghi.cs>`_           Anagrafica dei cataloghi    
-`io_cataloghi_art.dat <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_cataloghi_art.cs>`_      Associazione degli articoli al catalogo
-`io_cataloghi_agente.dat <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_cataloghi_agente.cs>`_   Associazione agenti per catalogo
+d                         d
 ========================  ============================================
+
+`io_cataloghi.dat`_
+
 
 L'applicazione determina quali articoli un agente può vedere, attraverso
 l'associazione di 2 entità associative (io_cataloghi_art.dat e io_cataloghi_agente.dat).
@@ -24,3 +25,5 @@ In pratica:
 
 Dopo aver creato questa associazione, i dati scaricati dall'agente sull'iPad verranno filtrati
 in modo che un agente potrà veder solo gli articoli associati ai cataloghi che afferiscono a lui.
+
+.. _io_cataloghi.dat: https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_cataloghi.cs
