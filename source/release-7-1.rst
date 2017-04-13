@@ -28,6 +28,6 @@ E' stato risolto un problema nella visualizzazione dei range di prezzi recuperat
 Novità
 ------
 
-**wTrenty: Destinazione diversa su copia commissione** - (rif: 12030)
+**wTrendy: Destinazione diversa su copia commissione** - (rif: 12030)
 
 E' stata gestita una nuova variabile utilizzabile nel report copia commissione per visualizzaziare correttamente la destinazione diversa
