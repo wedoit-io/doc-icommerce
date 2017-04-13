@@ -4,17 +4,13 @@ rel. 7.1 - 13/04/2017
 Anomalie
 --------
 
-**Problema sul report ordini per le righe omaggio** - (rif: 12022)
+**Problema sul report ordini per righe di tipo omaggio** - (rif: 12022)
 
-Risolto problema sul report degli ordini che conteggiava gli importi delle righe omaggio (allienata alla funzionalità ordini salvati)
+Nel report ordini, veniva erroneamente conteggiato negli importi, anche le righe di tipo omaggio. Questo generava una inconsistenza nel totale del report rispetto ai dati mostrati nel gestionale.
 
-**Problema nel range di prezzi visualizzato nel form di raccolta ordine** - (rif: 12034)
+**Problema con versioni obsolete** - (rif: 11908)
 
-E' stato risolto un problema nella visualizzazione dei range di prezzi recuperati dai listini. Venivano mostrati prezzi errati perchè non veniva considerato il catalogo come elemento discriminante.
-
-**Problema con versioni obsolete di iB** - (rif: 11908)
-
-Nel caso in cui una app risultasse obsoleta, veniva invitava l'utente ad aggiornare l'applicazione, indirizzandolo sull'AppStore. Veniva tuttavia proposta l'installazione di una App non corretta.
+Nel caso in cui una app risultasse obsoleta, veniva chiesto all'utente ad aggiornare l'applicazione, indirizzandolo sull'AppStore. Tuttavia veniva proposta l'installazione di una App non corretta.
 
 **Gestito funzionamento sotto https dell'AppManager** - (rif: 11929)
 
@@ -23,6 +19,11 @@ Ora l'infrastruttura server di iCommerce puo' gestire connessioni https
 **wTrendy: Crash su report** - (rif: 12033)
 
 E' stato risolto un problema di crash che si verificava durante la stama di un qualunque report in cui un codice pagamento non era presente nella tabella dei pagamenti, ma solo sull'anagrafica del cliente.
+
+
+**wTrendy: Problema nella visualizzazione del range prezzi in raccolta ordine** - (rif: 12034)
+
+E' stato risolto un problema nella visualizzazione dei range di prezzi recuperati dai listini. Venivano mostrati prezzi errati perchè non veniva considerato il catalogo come elemento discriminante nel calcolo del prezzo minimo e massimo.
 
 Novità
 ------
