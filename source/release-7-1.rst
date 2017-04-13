@@ -16,7 +16,7 @@ E' stato risolto un problema nella visualizzazione dei range di prezzi recuperat
 
 Nel caso in cui una app risultasse obsoleta, veniva invitava l'utente ad aggiornare l'applicazione, indirizzandolo sull'AppStore. Veniva tuttavia proposta l'installazione di una App non corretta.
 
-**Gestito funzionamento sotto https dell'appamanager** - (rif: 11929)
+**Gestito funzionamento sotto https dell'AppManager** - (rif: 11929)
 
 Ora l'infrastruttura server di iCommerce puo' gestire connessioni https
 
