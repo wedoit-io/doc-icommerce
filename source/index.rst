@@ -96,6 +96,7 @@ La documentazione è organizzata nelle seguenti sezioni:
   :maxdepth: 2
   :caption: Versioni supportate
   
+  release-7-2
   release-7-1
   release-7-0
   release-6-14
