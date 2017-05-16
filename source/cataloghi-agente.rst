@@ -27,7 +27,7 @@ in modo che un agente potrà veder solo gli articoli associati ai cataloghi che 
 
 Importante
 ================
-Il tracciato io_cataloghi.dat (https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_cataloghi.cs) contiene 2 campi che modificano la gestione dei permessi per quanto riguarda la possibilità di modificare i prezzi e gli sconti.
+Il tracciato io_cataloghi.dat (`Taglie cataloghi <https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_cataloghi.cs>`_) contiene 2 campi che modificano la gestione dei permessi per quanto riguarda la possibilità di modificare i prezzi e gli sconti.
 I campi sono FLG_MOD_PREZZO e FLG_MOD_SCONTI
 Essi posso assumere 3 valori:
 
