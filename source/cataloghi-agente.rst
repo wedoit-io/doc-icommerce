@@ -25,3 +25,18 @@ In pratica:
 Dopo aver creato questa associazione, i dati scaricati dall'agente sull'iPad verranno filtrati
 in modo che un agente potrà veder solo gli articoli associati ai cataloghi che afferiscono a lui.
 
+Importante
+================
+Il tracciato io_cataloghi.dat (https://github.com/wedoit-io/AMHelper/blob/master/src/net20/AMHelper/CSV/imp/rec_cataloghi.cs) contiene 2 campi che modificano la gestione dei permessi per quanto riguarda la possibilità di modificare i prezzi e gli sconti.
+I campi sono FLG_MOD_PREZZO e FLG_MOD_SCONTI
+Essi posso assumere 3 valori:
+
+======  ========================================
+Valore  Descrizione
+======  ========================================
+0       Tutti gli agenti legati al catalogo NON possono modificare il valore (prezzo o sconto)
+-1      Tutti gli agenti legati al catalogo possono modificare il valore (prezzo o sconto)
+9       Tale gestione viene disattivata e sostituita dalla normale gestione dei permessi parametrici per utente
+======  ========================================
+
+In pratica, se non si vuole gestire la possibilità di modificare i prezzi e gli sconti per catalogo, è necessario valorizzare tali campi con il numero 9
