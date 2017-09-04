@@ -38,6 +38,10 @@ dall'applicazione:
 -  {{alertMessage}} : messaggio di alert ("documento senza valore
    fiscale").
 -  {{printDate}} : data di creazione del documento.
+-  {{desPag}} : descrizione del Pagamento dell'ordine (dato di testata)
+-  {{noteTestata}} : note dell'ordine (dato di testata)
+-  {{desPagRigaOrd}} : descrizione del Pagamento dell'ordine (dato di riga)
+-  {{noteRiga}} : note dell'ordine (dato di riga)
 -  {{codAgente}} : codice agente dell'utente loggato.
 -  {{desAgente}} : descrizione dell'utente loggato.
 -  {{codCliente}} : codice del cliente relativo all'ordine.
@@ -89,6 +93,10 @@ dall'applicazione:
 -  {{alertMessage}} : valorizzato con un messaggio di alert ("documento
    senza valore fiscale").
 -  {{printDate}} : data di creazione del documento.
+-  {{desPag}} : descrizione del Pagamento dell'ordine (dato di testata)
+-  {{noteTestata}} : note dell'ordine (dato di testata)
+-  {{desPagRigaOrd}} : descrizione del Pagamento dell'ordine (dato di riga)
+-  {{noteRiga}} : note dell'ordine (dato di riga)
 -  {{codAgente}} : codice agente dell'utente loggato.
 -  {{desAgente}} : descrizione dell'utente loggato.
 -  {{codCliente}} : codice del cliente relativo all'ordine.
