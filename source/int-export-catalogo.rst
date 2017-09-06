@@ -55,7 +55,7 @@ immagini. Sotto la cartella Naturale vengono mostrate 2 immagini.
     Listino3.pdf | Listino 3 | COD003  | Prodotti  |          |    |    |           3 | 01012010
     Listino4.pdf | Listino 4 | COD004  | Prodotti  |          |    |    |           4 | 01012010
 
-.. warning:: Nell' esempio riportato, per comodità di lettura le colonne sono state allineate. Il file che deve essere creato NON DEVE contenere questi spazi.
+.. warning:: L'ordinamento viene applicato all'interno del suo livello.
 
 Visualizzazione risultante:
 
@@ -75,6 +75,10 @@ Visualizzazione risultante:
   -  File Listino 3
   -  File Listino 4
   -  File Listino 5
+
+
+.. warning:: Nell' esempio riportato, per comodità di lettura le colonne sono state allineate. Il file che deve essere creato NON DEVE contenere questi spazi.
+
 
 Esportazione basata su filesystem
 ---------------------------------
