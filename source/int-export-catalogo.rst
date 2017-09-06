@@ -49,11 +49,11 @@ immagini. Sotto la cartella Naturale vengono mostrate 2 immagini.
 
 ::
 
-    NOMEFILE     | TITOLO    | COD_ART | L1                   | L2       | L3 | L4 | DAT_ULT_MOD
-    Listino1.pdf | Listino 1 | COD001  | Detersivi            | Naturale |    |    | 01012010
-    Listino2.pdf | Listino 2 | COD002  | Detersivi            | Naturale |    |    | 01012010
-    Listino3.pdf | Listino 3 | COD003  | Prodotti per la casa |          |    |    | 01012010
-    Listino4.pdf | Listino 4 | COD004  | Prodotti per la casa |          |    |    | 01012010
+    NOMEFILE     | TITOLO    | COD_ART | L1                   | L2       | L3 | L4 | ORDINAMENTO | DAT_ULT_MOD
+    Listino1.pdf | Listino 1 | COD001  | Detersivi            | Naturale |    |    |           1 | 01012010
+    Listino2.pdf | Listino 2 | COD002  | Detersivi            | Naturale |    |    |           2 | 01012010
+    Listino3.pdf | Listino 3 | COD003  | Prodotti per la casa |          |    |    |           3 | 01012010
+    Listino4.pdf | Listino 4 | COD004  | Prodotti per la casa |          |    |    |           4 | 01012010
 
 .. warning:: Nell' esempio riportato, per comodità di lettura le colonne sono state allineate. Il file che deve essere creato NON DEVE contenere questi spazi.
 
